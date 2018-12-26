@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html ng-app="angularFormsApp">
+<head>
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/bundles/mini-spa-style")
+    @Scripts.Render("~/bundles/mini-spa-script")
+</head>
+<body class="container">
+    <br />
+    <div ng-view>
+    </div>
+    <br />
+</body>
+</html>
